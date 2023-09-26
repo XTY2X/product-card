@@ -2,10 +2,38 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Credit Card</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Product Card HTML</title>
 </head>
 <body>
-    
+    <div class="card">
+        <div class="payment_bx">
+            <div class="content">
+                <div class="card_bx">
+                    <label for="">CARDHOLDER</label>
+                    <input type="text" placeholder="Enter Your Name..." value="Illya Tsos">
+                </div>
+                <div class="card_bx">
+                    <label for="">CARD NUMBER</label>
+                    <input type="text" name="credit-number" placeholder="xxxx - xxxx - xxxx - xxxx" value="4149 - 4991 - 2919 - 9988">
+                    <img src="/KDS CODER Imges  (Credit Master Card Change)/img/master.png" alt="">
+                </div>
+                <div class="exp_cvv">
+                    <div class="card_bx">
+                        <label for="">EXP DATE</label>
+                        <input type="tel" maxlength="5" value="08/24">
+                    </div>
+                    <div class="card_bx">
+                        <label for="">CVV</label>
+                        <input type="tel" maxlength="3" value="123">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product_bx"></div>
+    </div>
+    <script src="app.js"></script>
 </body>
 </html>
